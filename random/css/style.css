@@ -1,0 +1,70 @@
+body {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+h1{
+  font-family: Consolas;
+  margin-top:0px;
+  margin-left:0px;
+  margin-right:0px;
+  margin-bottom:0px;
+  font-size: 64px;
+  height: 80px;
+  color: white;
+  background-color: #2cc04d;
+  border: 5px #118a2a solid;
+  border-radius: 20px;
+}
+
+blockquote {
+  background: #2cc04d;
+  border: 5px #118a2a solid;
+  border-radius: 40px;
+  padding: 18px;
+  max-width: 500px;
+  font-family: helvetica;
+  font-size: 32px;
+  margin: 0 auto 12px;
+  box-sizing: border-box;
+  quotes: "\201C""\201D""\2018""\2019";
+  position: relative;
+}
+blockquote:before {
+  content: open-quote;
+  top: 20px;
+  left: -30px;
+  
+}
+blockquote:after {
+  content: close-quote;
+  bottom: -20px;
+  right: -30px;
+}
+blockquote:after,
+blockquote:before {
+  font-family: cursive;
+  line-height: 50%;
+  font-size: 120px;
+  position: absolute;
+}
+blockquote p {
+  padding: 0;
+  margin: 0 0 12px;
+}
+blockquote footer {
+  font-family: helvetica;
+  font-style: bold;
+  font-weight: 900;
+  font-size: 42px;
+}
+
+button {
+  background-color: #2cc04d;
+  height: 50px;
+  width: 30%;
+  border-radius: 20px;
+  font-size: 28px;
+  cursor: pointer;
+}
